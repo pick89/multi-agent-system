@@ -334,6 +334,10 @@ poetry run pytest && poetry run mypy src/ && poetry run black --check src/ && po
 
 Commits: Action-oriented (`Add vision agent`, `Fix router timeout`). Branches: `feature/agent-name` or `fix/issue-description`. PRs: Include testing notes and model tier requirements.
 
+## Available Skills & Agents
+
+**BMAD-METHOD**: Agile AI development framework with expert agents for project planning, architecture, and workflow guidance. Use `bmad-help` for next steps. Install: `npx bmad-method install`.
+
 ## References
 
 - **Python Telegram Bot**: https://python-telegram-bot.readthedocs.io/
@@ -341,3 +345,4 @@ Commits: Action-oriented (`Add vision agent`, `Fix router timeout`). Branches: `
 - **Poetry**: https://python-poetry.org/docs/
 - **Asyncio**: https://docs.python.org/3/library/asyncio.html
 - **Pydantic**: https://docs.pydantic.dev/
+- **BMAD-METHOD**: https://github.com/bmad-code-org/BMAD-METHOD
